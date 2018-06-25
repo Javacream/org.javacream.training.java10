@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.build.maven/src/main/java"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.build.maven/src/test/java"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.command.api/src"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.command.appl/src"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.command.impl1/src"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.command.impl2/src"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.helloworld.actor/src"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.helloworld.business/src"/>
+	<classpathentry kind="src" path="org.javacream.training.java10.helloworld.dao/src"/>
+	<classpathentry kind="lib" path="org.javacream.training.java10.build.maven/target/org.javacream.training.java10.build.maven-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="org.javacream.training.java10.helloworld.actor/lib/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="org.javacream.training.java10.helloworld.dao/lib/commons-lang3-3.6.jar"/>
+	<classpathentry kind="output" path="org.javacream.training.java10.build.maven/target/classes"/>
+</classpath>
