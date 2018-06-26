@@ -1,8 +1,8 @@
-package org.javacream.training.java9.jigsaw.application;
+package org.javacream.training.java10.jigsaw.application;
 
 import java.util.List;
 
-import org.javacream.training.java9.jigsaw.publisher.impl.MessagePublisher;
+import org.javacream.training.java10.jigsaw.publisher.MessagePublisher;
 
 public class Application {
 
