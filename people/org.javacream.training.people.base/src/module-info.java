@@ -1,4 +1,3 @@
-module org.javacream.training.people.base {
-    exports org.javacream.training.people.base.api;
-    requires org.apache.commons.lang3;
+module org.javacream.training.people.base.types {
+    exports org.javacream.training.people.base.types.api;
 }

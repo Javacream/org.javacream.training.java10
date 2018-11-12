@@ -2,8 +2,8 @@ package org.javacream.training.people.actor;
 
 import org.apache.commons.lang3.SerializationUtils;
 import org.apache.commons.lang3.concurrent.ConcurrentUtils;
-import org.javacream.training.people.base.api.PeopleController;
-import org.javacream.training.people.base.api.Person;
+import org.javacream.training.people.base.controller.api.PeopleController;
+import org.javacream.training.people.base.types.api.Person;
 import org.javacream.training.people.company.api.Worker;
 import org.javacream.training.people.university.api.Student;
 

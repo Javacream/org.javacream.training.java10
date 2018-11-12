@@ -1,4 +1,4 @@
-package org.javacream.training.people.base.api;
+package org.javacream.training.people.base.types.api;
 
 import java.io.Serializable;
 
