@@ -6,7 +6,6 @@ import org.javacream.training.java10.jigsaw.publisher.StringSubscriber;
 
 public class SimpleSubscriber2 implements StringSubscriber{
 
-	@SuppressWarnings("unused")
 	private Subscription subscription;
 
 	@Override

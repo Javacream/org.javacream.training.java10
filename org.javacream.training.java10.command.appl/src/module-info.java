@@ -1,4 +1,4 @@
-import org.javacream.training.java9.command.api.Command;
+import org.javacream.training.java10.command.api.Command;
 
 /**
  * 
