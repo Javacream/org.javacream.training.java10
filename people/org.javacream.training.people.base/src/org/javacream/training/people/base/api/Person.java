@@ -1,6 +1,9 @@
 package org.javacream.training.people.base.api;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable{
+    private static final long serialVersionUID = 1L;
     private static Long PEOPLE_COUNTER = 0l;
     private Long id;
     private String lastname;

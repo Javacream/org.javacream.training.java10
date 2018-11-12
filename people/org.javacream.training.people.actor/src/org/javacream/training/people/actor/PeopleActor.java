@@ -1,5 +1,7 @@
 package org.javacream.training.people.actor;
 
+import org.apache.commons.lang3.SerializationUtils;
+import org.apache.commons.lang3.concurrent.ConcurrentUtils;
 import org.javacream.training.people.base.api.PeopleController;
 import org.javacream.training.people.base.api.Person;
 import org.javacream.training.people.company.api.Worker;
@@ -17,6 +19,7 @@ public class PeopleActor {
 	controller.save(w);
 	System.out.println(controller.findAll());
 	System.out.println(controller.findById(2l));
-	
+	System.out.println(SerializationUtils.clone(p));
+	System.out.println(ConcurrentUtils.class);
    }
 }

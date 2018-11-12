@@ -1,9 +1,11 @@
 package org.javacream.training.people.base.impl;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.lang3.SerializationUtils;
 import org.javacream.training.people.base.api.PeopleController;
 import org.javacream.training.people.base.api.Person;
 
@@ -18,7 +20,7 @@ public class MapPeopleController implements PeopleController {
 
     @Override
     public Collection<Person> findAll() {
-	return people.values();
+	return SerializationUtils.clone(new ArrayList<>(people.values()));
     }
 
     @Override
