@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 
 import org.javacream.training.java1x.people.impl.MapPeopleController;
 
@@ -14,7 +15,7 @@ public interface PeopleController {
     }
     void save(Person person);
     void update(Person person);
-    Person findById(Long id);
+    Optional<Person> findById(Long id);
     void deleteById(Long id);
     Collection<Person> findAll();
     default List<Person> findAllAscending(){
