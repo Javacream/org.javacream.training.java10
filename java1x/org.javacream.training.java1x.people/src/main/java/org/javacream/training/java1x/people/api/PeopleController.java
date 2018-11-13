@@ -27,7 +27,7 @@ public interface PeopleController {
     }
     
     private List<Person> findSorted(SortCriterium sortCriterium){
-	List<Person> peopleList = new ArrayList<>(findAll());
+	var peopleList = new ArrayList<>(findAll());
 	peopleList.sort(sortCriterium.getAlgorithm());
 	return peopleList;
     }
