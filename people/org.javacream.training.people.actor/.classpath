@@ -11,27 +11,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.listener.audit">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.company">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.base.types">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.university">
+	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.listener">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
@@ -41,12 +21,27 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.listener">
+	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.university">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.listener.log">
+	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.base.types">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.company">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.javacream.training.people.listener.audit">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
